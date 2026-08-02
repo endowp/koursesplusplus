@@ -1,0 +1,97 @@
+:root {
+  --color-light-blue: #b4e5ea;
+  --color-general: #67bed9;
+  --color-programming: #aa67d9;
+  --color-thai: #d96767;
+}
+
+.App {
+  text-align: center;
+  background-color: var(--color-light-blue);
+}
+
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: var(--color-light-blue);
+}
+
+.App-footer {
+  background-color: #282c34;
+  color: var(--color-light-blue);
+  padding: 2vw;
+}
+
+.btn-outline-info {
+  background-color: white;
+}
+
+.btn-outline-info:hover {
+  background-color: var(--color-general);
+  color: white;
+}
+
+.btn-outline-info:focus {
+  background-color: var(--color-general);
+  color: white;
+}
+
+.btn-type-general {
+  background-color: white !important;
+  color: var(--color-general) !important;
+}
+
+.btn-type-general-active {
+  background-color: var(--color-general) !important;
+  color: white !important;
+}
+
+.btn-type-programming {
+  background-color: white !important;
+  color: var(--color-programming) !important;
+}
+
+.btn-type-programming-active {
+  background-color: var(--color-programming) !important;
+  color: white !important;
+}
+
+.btn-type-thai {
+  background-color: white !important;
+  color: var(--color-thai) !important;
+}
+
+.btn-type-thai-active {
+  background-color: var(--color-thai) !important;
+  color: white !important;
+}
+
+.site-type {
+  color: white;
+}
+
+.site-type-general {
+  background-color: var(--color-general);
+}
+
+.site-type-general {
+  background-color: var(--color-general);
+}
+
+.site-type-programming {
+  background-color: var(--color-programming);
+}
+
+.site-type-thai {
+  background-color: var(--color-thai);
+}
