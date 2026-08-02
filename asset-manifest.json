@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/koursesplusplus/static/css/main.bc1dfa92.css",
+    "main.js": "/koursesplusplus/static/js/main.42fdfb32.js",
+    "static/js/453.fd2f0c4a.chunk.js": "/koursesplusplus/static/js/453.fd2f0c4a.chunk.js",
+    "index.html": "/koursesplusplus/index.html",
+    "main.bc1dfa92.css.map": "/koursesplusplus/static/css/main.bc1dfa92.css.map",
+    "main.42fdfb32.js.map": "/koursesplusplus/static/js/main.42fdfb32.js.map",
+    "453.fd2f0c4a.chunk.js.map": "/koursesplusplus/static/js/453.fd2f0c4a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc1dfa92.css",
+    "static/js/main.42fdfb32.js"
+  ]
+}
