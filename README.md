@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Kourses++
+##### An online learning hub. Lots of online courses and online learning websites are gathered in Kourses++
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Deployed to Github Pages at https://endowp.github.io/koursesplusplus/
 
 ## Available Scripts
 
@@ -44,3 +46,5 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+To deploy React project on Github, check out the [Deploying a React App to GitHub Pages](https://github.com/gitname/react-gh-pages/tree/master).
