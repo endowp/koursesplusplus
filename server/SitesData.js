@@ -1,4 +1,4 @@
-export const sites = [
+const sites = [
   {
     siteName: "Khan Academy",
     siteDescription:
@@ -160,3 +160,7 @@ export const sites = [
     siteType: "general",
   },
 ];
+
+module.exports = {
+  sites
+};

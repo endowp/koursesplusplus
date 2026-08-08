@@ -1,6 +1,7 @@
 {
-  "name": "my-app",
+  "name": "koursesplusplus-client",
   "version": "0.1.0",
+  "proxy": "http://localhost:3001",
   "homepage": "https://endowp.github.io/koursesplusplus",
   "private": true,
   "dependencies": {

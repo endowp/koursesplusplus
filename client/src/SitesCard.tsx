@@ -8,11 +8,22 @@ export interface Site {
 }
 
 export const SitesCard = ({ sites }: { sites: Site[] }) => {
+  if (!sites || sites.length === 0) {
+    return (
+      <div className="load-sites-error">
+        <h4>Could not load sites data.</h4>
+        <h5>
+          Please recheck that server is running correctly
+        </h5>
+      </div>
+    );
+  }
+
   return (
     <div className="row row-cols-auto justify-content-center">
-      {sites.map((site) => {
+      {sites.map((site: Site) => {
         return (
-          <div>
+          <div key={site.siteName}>
             <div
               className="card"
               style={{

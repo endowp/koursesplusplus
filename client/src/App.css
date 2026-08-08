@@ -95,3 +95,8 @@
 .site-type-thai {
   background-color: var(--color-thai);
 }
+
+.load-sites-error {
+  color: red;
+  margin: 3vh;
+}

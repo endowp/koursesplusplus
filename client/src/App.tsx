@@ -1,17 +1,32 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import icon from "./icon.png";
 import "./App.css";
-import { sites } from "./SitesData";
 import "../node_modules/bootstrap/js/dist/dropdown.js";
 import { Site, SitesCard } from "./SitesCard";
 
 const App = () => {
+  const [sites, setSites] = useState([]);
   const [siteType, setSiteType] = useState("all");
+
+  const loadSites = () => {
+    fetch("/api/sites")
+      .then((res) => res.json())
+      .then((data) => {
+        setSites(data);
+      })
+      .catch(() => {
+        console.error("Could not load sites data");
+      });
+  };
+
+  useEffect(() => {
+    loadSites();
+  }, []);
 
   const filteredItems: Site[] =
     siteType === "all"
       ? sites
-      : sites.filter((site) => site.siteType === siteType);
+      : sites.filter((site: Site) => site.siteType === siteType);
 
   const handleTypeFilter = (type: string) => {
     siteType === type ? setSiteType("all") : setSiteType(type);
